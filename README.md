@@ -82,3 +82,20 @@ La cual puede contener recursivamente muchos puntos.
 Por favor note que “hijos” es un HashMap , cuyo índice es el nombre del punto. Esto es crucial porque nos permitirá buscar rápidamente y evitar duplicados. 
 Cada punto puede tener varios hijos puntos, y a su vez estos tendrán hijos de forma recursiva sin límite. 
 
+# Cómo usarse
+
+Intencionalmente publiqué dos repositorios porque el visualizador será útil para cualquier persona que
+quiera visualizar coordenadas jerárquicas.
+
+- Estudios científicos
+- información de la ciudad
+- listados de sucursales, etc.
+
+El visualizador está hecho con el framework javascript vue.js y permite niveles ilimitados de nodos
+jerárquicos.
+
+No requiere base de datos para funcionar, entonces su hosteo es fácil y gratuito.
+Visualizador de coordenadas geográficas:
+
+[https://github.com/eduardoarandah/coordenadas-estados-municipios-localidades-de-mexico-json](https://github.com/eduardoarandah/coordenadas-estados-municipios-localidades-de-mexico-json) 
+
